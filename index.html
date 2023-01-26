@@ -5,30 +5,42 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>ChaosGDPS ILL</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
-       <h1>Welcome to the ChaosGDPS ILL!</h1>
-       <h2>Links:</h2>
-       <a href = "https://docs.google.com/document/d/1w41FFK-YYQ8gxrznCoRwIDiuuSnKify-k7DMiQZeCtc/edit?usp=sharing">
-        Rules for requesting levels
-       </a>
-       <br>
-       <a href="https://discord.gg/EXePXr6gKg">
-        Link to ILL + SLL
-       </a>
-       <br>
-       <a href="https://discord.gg/4vrT7hWM54">
-        Link to AdrianDrummis' server (has download)
-       </a>
-       <h2>List:</h2>
-       <br>
-       <button type="button">
-        <a href="https://www.youtube.com/watch?v=8VI4BdjdPLc">
-            filler level (takes you to a video)
-        </a>
-       </button>
-       <h2>Credits:</h2>
-       tionaus (HTML)
-       nthprsnl (CSS)
+        <div class="navbar">
+            <img src="https://media.discordapp.net/attachments/973858460460519434/1068143239049265213/app_icon.png">
+            <div class="links">
+                
+                <button class= "hover-blue" onclick="window.open('https://docs.google.com/document/d/1w41FFK-YYQ8gxrznCoRwIDiuuSnKify-k7DMiQZeCtc/edit?usp=sharing')">
+                    <i class="fa-solid fa-list-check"></i>
+                    <abbr>Rules</abbr>
+                </button>
+                <button class="hover-green" onclick="window.open('https://discord.gg/EXePXr6gKg')">
+                    <i class="fa-brands fa-discord"></i>
+                    <abbr>ILL</abbr>
+                </button>
+                <button class="hover-red" onclick="window.open('https://discord.gg/4vrT7hWM54')">
+                    <i class="fa-brands fa-discord"></i>
+                    <abbr>GDPS</abbr>
+                </button>
+                <button class="hover-gray>" onclick="window.open('https://github.com/Tionwa/ChaosGDPS-ILL')">
+                    <i class="fa-solid fa-bars"></i>
+                        <abbr>GitHub</abbr>
+                </button>
+            </div>
+        </div>
+        <div id="container" class="container">
+            <h1><p style="color: rgb(245, 92, 92);">Welcome to the ChaosGDPS ILL!</p></h1>
+        <div class="button">
+            <button class="button" onclick="window.open('https://www.youtube.com/watch?v=8VI4BdjdPLc')">
+               <p style="font-size: 24px;"> <b>EXAMPLE LEVEL</b> by example creator </p>
+            </button>
+        </div>
+        <h3>Credits:</h3>
+        tionaus (HTML)
+        nthprsnl (CSS)
     </body>
 </html>
